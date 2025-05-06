@@ -1,6 +1,6 @@
 ---
 title: Intermedia course R
-author: Mette Kathrine nygaard
+author: Mette Kathrine Nygaard
 format: html
 ---
 
@@ -56,7 +56,7 @@ add_numbers <- function(num1, num2) {
 add_numbers(1, 2)
 ```
 
-## Import 101'scgm data with a functin
+## Import 101's cgm data with a function
 
 ```{r}
 #' Import on participants cgm
@@ -106,4 +106,32 @@ here("data-raw/dime/sleep/101.csv") %>%
 
 here("data-raw/dime/sleep/102.csv") %>%
   import_sleep()
+```
+## Import DIME data function
+
+```{r}
+#' Import data from thr DIME study dataset
+#'
+#' @param file_path Path to the CSV file
+#'
+#' @returns A data frame
+#'
+import_dime <- function(file_path) {
+  data <- file_path %>%
+    readr::read_csv(
+      show_col_types = FALSE,
+      name_repair = snakecase::to_snake_case,
+      n_max = 100
+    )
+
+  return(data)
+}
+```
+
+```{r}
+here("data-raw/dime/cgm/101.csv") %>%
+  import_dime()
+
+here("data-raw/dime/sleep/101.csv") %>%
+  import_dime()
 ```
