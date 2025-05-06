@@ -67,9 +67,9 @@ add_numbers(1, 2)
 #'
 import_cgm <- function(file_path) {
   cgm <- file_path %>%
-    read_csv(
+    readr::read_csv(
       show_col_types = FALSE,
-      name_repair = to_snake_case,
+      name_repair = snakecase::to_snake_case,
       n_max = 100
     )
   return(cgm)
