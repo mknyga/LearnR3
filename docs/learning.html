@@ -209,6 +209,63 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </section>
+<section id="exercise-to-make-function-to-import-sleep-data" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-to-make-function-to-import-sleep-data">Exercise to make function to import sleep data</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Import on participants sleep</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param file_path Path to sleep file</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="co">#' @returns Returns to a data frame</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>import_sleep <span class="ot">&lt;-</span> <span class="cf">function</span>(file_path) {</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  sleep <span class="ot">&lt;-</span> file_path <span class="sc">%&gt;%</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">read_csv</span>(</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>      <span class="at">show_col_types =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>      <span class="at">name_repair =</span> to_snake_case,</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>      <span class="at">n_max =</span> <span class="dv">100</span></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(sleep)</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a><span class="fu">here</span>(<span class="st">"data-raw/dime/sleep/101.csv"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">import_sleep</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 100 × 3
+   date                sleep_type seconds
+   &lt;dttm&gt;              &lt;chr&gt;        &lt;dbl&gt;
+ 1 2021-05-24 23:03:00 wake           540
+ 2 2021-05-24 23:12:00 light          180
+ 3 2021-05-24 23:15:00 deep          1440
+ 4 2021-05-24 23:39:00 light          240
+ 5 2021-05-24 23:43:00 wake           300
+ 6 2021-05-24 23:48:00 light          120
+ 7 2021-05-24 23:50:00 rem           1350
+ 8 2021-05-25 00:12:30 wake           870
+ 9 2021-05-25 00:27:00 rem            360
+10 2021-05-25 00:33:00 light          210
+# ℹ 90 more rows</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">here</span>(<span class="st">"data-raw/dime/sleep/102.csv"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">import_sleep</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 100 × 3
+   date                sleep_type seconds
+   &lt;dttm&gt;              &lt;chr&gt;        &lt;dbl&gt;
+ 1 2021-06-04 00:54:00 light          180
+ 2 2021-06-04 00:57:00 deep          2340
+ 3 2021-06-04 01:36:00 light          900
+ 4 2021-06-04 01:51:00 deep          1470
+ 5 2021-06-04 02:15:30 light          120
+ 6 2021-06-04 02:17:30 rem            720
+ 7 2021-06-04 02:29:30 light         2700
+ 8 2021-06-04 03:14:30 deep           300
+ 9 2021-06-04 03:19:30 light         1440
+10 2021-06-04 03:43:30 rem           1620
+# ℹ 90 more rows</code></pre>
+</div>
+</div>
+</section>
 
 </main>
 <!-- /main column -->
