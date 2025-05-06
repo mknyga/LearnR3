@@ -55,3 +55,29 @@ add_numbers <- function(num1, num2) {
 
 add_numbers(1, 2)
 ```
+
+## Import 101'scgm data with a functin
+
+```{r}
+#' Import on participants cgm
+#'
+#' @param file_path Path to file
+#'
+#' @returns Returns a data frame
+#'
+import_cgm <- function(file_path) {
+  cgm <- file_path %>%
+    read_csv(
+      show_col_types = FALSE,
+      name_repair = to_snake_case,
+      n_max = 100
+    )
+  return(cgm)
+}
+
+here("data-raw/dime/cgm/101.csv") %>%
+  import_cgm()
+
+here("data-raw/dime/cgm/102.csv") %>%
+  import_cgm()
+```

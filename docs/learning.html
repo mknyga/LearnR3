@@ -152,6 +152,63 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </section>
+<section id="import-101scgm-data-with-a-functin" class="level2">
+<h2 class="anchored" data-anchor-id="import-101scgm-data-with-a-functin">Import 101’scgm data with a functin</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' Import on participants cgm</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co">#' @param file_path Path to file</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co">#' @returns Returns a data frame</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>import_cgm <span class="ot">&lt;-</span> <span class="cf">function</span>(file_path) {</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  cgm <span class="ot">&lt;-</span> file_path <span class="sc">%&gt;%</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">read_csv</span>(</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>      <span class="at">show_col_types =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>      <span class="at">name_repair =</span> to_snake_case,</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>      <span class="at">n_max =</span> <span class="dv">100</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(cgm)</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="fu">here</span>(<span class="st">"data-raw/dime/cgm/101.csv"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">import_cgm</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 100 × 2
+   device_timestamp    historic_glucose_mmol_l
+   &lt;dttm&gt;                                &lt;dbl&gt;
+ 1 2021-03-18 08:15:00                     5.8
+ 2 2021-03-18 08:30:00                     5.4
+ 3 2021-03-18 08:45:00                     5.1
+ 4 2021-03-18 09:01:00                     5.3
+ 5 2021-03-18 09:16:00                     5.3
+ 6 2021-03-18 09:31:00                     4.9
+ 7 2021-03-18 09:46:00                     4.7
+ 8 2021-03-18 10:01:00                     4.8
+ 9 2021-03-18 10:16:00                     5.5
+10 2021-03-18 10:31:00                     5.7
+# ℹ 90 more rows</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">here</span>(<span class="st">"data-raw/dime/cgm/102.csv"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">import_cgm</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 100 × 2
+   device_timestamp    historic_glucose_mmol_l
+   &lt;dttm&gt;                                &lt;dbl&gt;
+ 1 2021-03-19 09:02:00                     2.2
+ 2 2021-03-19 09:17:00                     2.2
+ 3 2021-03-19 09:32:00                     2.2
+ 4 2021-03-19 09:46:00                     2.2
+ 5 2021-03-19 17:29:00                     5.1
+ 6 2021-03-19 17:44:00                     4.7
+ 7 2021-03-19 17:59:00                     4.9
+ 8 2021-03-19 18:14:00                     5.6
+ 9 2021-03-19 18:29:00                     5.9
+10 2021-03-19 18:45:00                     6.2
+# ℹ 90 more rows</code></pre>
+</div>
+</div>
+</section>
 
 </main>
 <!-- /main column -->
