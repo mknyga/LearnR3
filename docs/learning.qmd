@@ -17,8 +17,8 @@ library(lubridate)
 source(here("R/functions.R"))
 cgm_data <- here("data-raw/dime/cgm") %>%
   import_csv_files() %>%
-  get_participant_id() %>%
-  prepare_dates(device_timestamp)
+  clean_cgm()
+
 
 sleep_data <- here("data-raw/dime/sleep") |>
   import_csv_files() |>
@@ -156,9 +156,35 @@ here("data-raw/dime/sleep/") |>
 
 ## Working with dates
 
-
 ```{r}
 ```
 
 ```{r}
+```
+
+
+## Summarring with across()
+
+```{r}
+cgm_data %>%
+  summarise(across(glucose, list(
+    mean = mean,
+    sd = sd,
+    median = median
+  )))
+```
+
+## Summarize by group
+
+```{r}
+cgm_data %>%
+  select(-contains("timestamp"), -contains("datetime")) %>%
+  group_by(pick(-glucose)) %>%
+  summarise(
+    across(glucose, list(
+      mean = mean,
+      sd = sd
+    )),
+    .groups = "drop"
+  )
 ```

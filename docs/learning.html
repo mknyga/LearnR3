@@ -392,6 +392,54 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="working-with-dates" class="level2">
 <h2 class="anchored" data-anchor-id="working-with-dates">Working with dates</h2>
 </section>
+<section id="summarring-with-across" class="level2">
+<h2 class="anchored" data-anchor-id="summarring-with-across">Summarring with across()</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>cgm_data <span class="sc">%&gt;%</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="fu">across</span>(glucose, <span class="fu">list</span>(</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">mean =</span> mean,</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">sd =</span> sd,</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">median =</span> median</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>  )))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 × 3
+  glucose_mean glucose_sd glucose_median
+         &lt;dbl&gt;      &lt;dbl&gt;          &lt;dbl&gt;
+1         5.63       1.13            5.5</code></pre>
+</div>
+</div>
+</section>
+<section id="summarize-by-group" class="level2">
+<h2 class="anchored" data-anchor-id="summarize-by-group">Summarize by group</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>cgm_data <span class="sc">%&gt;%</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="fu">contains</span>(<span class="st">"timestamp"</span>), <span class="sc">-</span><span class="fu">contains</span>(<span class="st">"datetime"</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(<span class="fu">pick</span>(<span class="sc">-</span>glucose)) <span class="sc">%&gt;%</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">across</span>(glucose, <span class="fu">list</span>(</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>      <span class="at">mean =</span> mean,</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>      <span class="at">sd =</span> sd</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>    )),</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 506 × 5
+      id date        hour glucose_mean glucose_sd
+   &lt;int&gt; &lt;date&gt;     &lt;int&gt;        &lt;dbl&gt;      &lt;dbl&gt;
+ 1   101 2021-03-18     8         5.43     0.351 
+ 2   101 2021-03-18     9         5.05     0.300 
+ 3   101 2021-03-18    10         5.3      0.392 
+ 4   101 2021-03-18    11         4.03     0.189 
+ 5   101 2021-03-18    12         4.02     0.0957
+ 6   101 2021-03-18    13         4.1      0.141 
+ 7   101 2021-03-18    14         5.62     0.946 
+ 8   101 2021-03-18    15         7.3      0.141 
+ 9   101 2021-03-18    16         6.55     0.7   
+10   101 2021-03-18    17         4.8      0.356 
+# ℹ 496 more rows</code></pre>
+</div>
+</div>
+</section>
 
 </main>
 <!-- /main column -->
