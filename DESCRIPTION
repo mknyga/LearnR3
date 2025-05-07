@@ -12,6 +12,7 @@ Imports:
     snakecase,
     purrr,
     stringr,
-    dplyr
+    dplyr,
+    lubridate
 Depends:
     tidyverse

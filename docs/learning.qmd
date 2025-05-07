@@ -13,10 +13,18 @@ library(here)
 library(snakecase)
 library(fs)
 library(stringr)
+library(lubridate)
 source(here("R/functions.R"))
 cgm_data <- here("data-raw/dime/cgm") %>%
   import_csv_files() %>%
-  get_participant_id()
+  get_participant_id() %>%
+  prepare_dates(device_timestamp)
+
+sleep_data <- here("data-raw/dime/sleep") |>
+  import_csv_files() |>
+  get_participant_id() |>
+  rename(datetime = date) %>%
+  prepare_dates(datetime)
 ```
 
 
@@ -144,4 +152,13 @@ here("data-raw/dime/cgm/") |>
 here("data-raw/dime/sleep/") |>
   import_csv_files() %>%
   get_participant_id()
+```
+
+## Working with dates
+
+
+```{r}
+```
+
+```{r}
 ```

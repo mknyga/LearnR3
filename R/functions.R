@@ -54,3 +54,22 @@ get_participant_id <- function(data) {
 
   return(data_with_id)
 }
+
+
+#' Split up and change column names
+#'
+#' @param data The data frame we look at
+#' @param column The column that we need to spilt up
+#'
+#' @returns Prepared data
+#'
+prepare_dates <- function(data, column) {
+  prepared_dates <- data %>%
+    mutate(
+      date = as_date({{ column }}),
+      hour = hour({{ column }}),
+      .before = {{ column }}
+    )
+
+  return(prepared_dates)
+}
