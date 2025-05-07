@@ -11,6 +11,7 @@ format: html
 library(tidyverse)
 library(here)
 library(snakecase)
+library(fs)
 source(here("R/functions.R"))
 ```
 
@@ -111,7 +112,6 @@ here("data-raw/dime/sleep/102.csv") %>%
 ## Import DIME data function
 
 ```{r}
-
 ```
 
 ```{r}
@@ -120,4 +120,22 @@ here("data-raw/dime/cgm/101.csv") %>%
 
 here("data-raw/dime/sleep/101.csv") %>%
   import_dime()
+```
+
+
+## Using map
+
+```{r}
+cgm_files <- here("data-raw/dime/cgm/") %>%
+  dir_ls(glob = "*.csv")
+
+
+cgm_files
+
+
+cgm_data <- cgm_files %>%
+  map(import_dime) %>%
+  list_rbind(names_to = "file_path_id")
+
+cgm_data
 ```
