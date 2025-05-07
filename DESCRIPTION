@@ -10,6 +10,8 @@ Imports:
     fs,
     readr,
     snakecase,
-    purrr
+    purrr,
+    stringr,
+    dplyr
 Depends:
     tidyverse
