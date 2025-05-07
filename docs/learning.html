@@ -307,59 +307,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </section>
-<section id="using-map" class="level2">
-<h2 class="anchored" data-anchor-id="using-map">Using map</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>cgm_files <span class="ot">&lt;-</span> <span class="fu">here</span>(<span class="st">"data-raw/dime/cgm/"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">dir_ls</span>(<span class="at">glob =</span> <span class="st">"*.csv"</span>)</span>
-<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>cgm_files</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/101.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/102.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/104.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/105.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/106.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/107.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/109.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/113.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/114.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/115.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/116.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/118.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/119.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/120.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/121.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/122.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/123.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/125.csv
-/Users/au201463/Desktop/LearnR3/data-raw/dime/cgm/127.csv</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>cgm_data <span class="ot">&lt;-</span> cgm_files <span class="sc">%&gt;%</span></span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">map</span>(import_dime) <span class="sc">%&gt;%</span></span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">list_rbind</span>(<span class="at">names_to =</span> <span class="st">"file_path_id"</span>)</span>
-<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>cgm_data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 1,900 × 3
-   file_path_id                       device_timestamp    historic_glucose_mmo…¹
-   &lt;chr&gt;                              &lt;dttm&gt;                               &lt;dbl&gt;
- 1 /Users/au201463/Desktop/LearnR3/d… 2021-03-18 08:15:00                    5.8
- 2 /Users/au201463/Desktop/LearnR3/d… 2021-03-18 08:30:00                    5.4
- 3 /Users/au201463/Desktop/LearnR3/d… 2021-03-18 08:45:00                    5.1
- 4 /Users/au201463/Desktop/LearnR3/d… 2021-03-18 09:01:00                    5.3
- 5 /Users/au201463/Desktop/LearnR3/d… 2021-03-18 09:16:00                    5.3
- 6 /Users/au201463/Desktop/LearnR3/d… 2021-03-18 09:31:00                    4.9
- 7 /Users/au201463/Desktop/LearnR3/d… 2021-03-18 09:46:00                    4.7
- 8 /Users/au201463/Desktop/LearnR3/d… 2021-03-18 10:01:00                    4.8
- 9 /Users/au201463/Desktop/LearnR3/d… 2021-03-18 10:16:00                    5.5
-10 /Users/au201463/Desktop/LearnR3/d… 2021-03-18 10:31:00                    5.7
-# ℹ 1,890 more rows
-# ℹ abbreviated name: ¹​historic_glucose_mmol_l</code></pre>
-</div>
-</div>
-</section>
 
 </main>
 <!-- /main column -->
