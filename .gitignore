@@ -12,4 +12,5 @@ data-raw/dime/
 *.htlm
 *_file
 data/dime.csv
-data-raw/nurses_stress*
+data-raw/nurses-stress*
+
