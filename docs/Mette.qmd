@@ -4,6 +4,12 @@ format: html
 editor: visual
 ---
 
+```{r setup}
+source(here::here(R/functions-mette.R))
+source(here::here(R/functions-naja.R))
+```
+
+
 ## Quarto
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
