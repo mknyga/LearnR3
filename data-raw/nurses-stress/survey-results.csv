@@ -1,0 +1,364 @@
+ID,Start time,End time,duration,date,Stress level,COVID related,Treating a covid patient,Patient in Crisis,Patient or patient's family,Doctors or colleagues,"Administration, lab, pharmacy, radiology, or other ancilliary services
+",Increased Workload,Technology related stress,Lack of supplies,Documentation,Competency related stress,Saftey (physical or physiological threats),Work Environment - Physical or others: work processes or procedures,Description
+5C,08:00:00,09:00:00,01:00:00,4/15/2020,1,0,1,0,1,0,0,0,0,0,0,0,0,0,NA
+5C,17:31:00,17:58:00,00:27:00,4/14/2020,1,0,1,0,1,0,0,1,0,0,0,0,0,0,NA
+E4,15:32:00,15:37:00,00:05:00,4/18/2020,2,0,1,0,1,0,0,0,0,0,0,0,0,0,Spoke with family regarding patient's decline in health. Was placing a FaceTime call to a patient's daughter so that she could see him and tell him she loved him and say her goodbyes. Patient was having a very difficult time breathing at that point and used every bit of energy he had to attempt to speak to his daughter.
+E4,14:05:00,14:11:00,00:06:00,4/18/2020,2,0,0,0,1,0,0,0,0,0,0,0,0,0,Was placing another FaceTime call to a patient's brother after informing him that the patient was declining and would likely not recover.
+7A,13:52:00,14:03:00,00:11:00,4/18/2020,2,0,1,0,0,0,0,1,0,0,0,0,0,1,NA
+94,08:49:00,08:56:00,00:07:00,4/18/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,09:29:00,09:36:00,00:07:00,4/18/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+E4,08:15:00,08:24:00,00:09:00,4/18/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,1,Was trying to get organized after being pulled to a new floor that I wasn't originally scheduled for.
+E4,09:32:00,09:38:00,00:06:00,4/18/2020,2,0,1,0,1,0,0,0,0,0,0,0,0,1,"Was assessing a COVID patient who required a lot of supportive equipment in the room. The rooms now have fans with filters in the windows to make them negative pressure and sit on the bedside table, which takes away from the already limited amount of ""clean"" space I have to place things I need to do my work. The patient was very difficult to move as he was non responsive at the time, and all of the extra equipment in the small room made it very difficult to maneuver around the room."
+7A,09:13:00,10:13:00,01:00:00,4/19/2020,2,0,1,1,0,1,1,1,0,0,0,0,0,1,"Some Doctors rushing to get off of the unit, my feeling like I can?t get all of my concerns for my patient addressed."
+7A,10:23:00,10:46:00,00:23:00,4/19/2020,2,0,1,1,1,0,0,1,0,0,0,0,1,1,"Mentally, physically, and emotionally drained before noon. My uniform and PPE saturated from sweat. Having to FaceTime family of a declining barely responsive patient is a horrible feeling but I?m glad I could at least give that to their family. Today was just one unfortunate event after another. Not a good day."
+E4,08:00:00,08:16:00,00:16:00,4/19/2020,2,0,0,0,1,1,0,0,0,1,0,0,0,0,"Was placing a new IV in an 8 week old patient. The previous nurse left the pt with a bad IV and no supplies on this particular floor for the infant (diapers, formula, 24g IV catheters). Had to grab supplies from another department. This was not the normal pediatric floor; it was moved due to the influx of COVID patients."
+E4,09:21:00,09:30:00,00:09:00,4/19/2020,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Was discussing with 7nay/o patient at LENGTH about why it was unsafe for him to get out of bed and attempt to walk around with a tibia/fibula fracture, and with no assistive devices as well. The patient was restless, not used to being stuck in bed, and very impatient for the surgeon to make rounds."
+E4,10:01:00,10:09:00,00:08:00,4/19/2020,1,0,0,0,0,0,1,0,0,0,0,0,0,0,Was missing a medication for a patient
+E4,12:54:00,13:03:00,00:09:00,4/19/2020,2,0,1,0,1,0,0,0,0,0,0,0,0,0,"From 11am on, I was informing pts family of patient?s poor and declining status and did call them via Facetime so that they could see him and say what they needed to before saying goodbye to a husband and father they had not seen in a month due to COVID. It was a very difficult experience to see the family hurting and hear them crying and in so much dispair. Shortly after the patient was pronounced by the MD. And we began postmortem care and protocol."
+E4,13:25:00,13:57:00,00:32:00,4/19/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,Received a new admit at the same time that I needed to transport my patient to surgery. I was required to transport the patient to the surgery floor myself due to it being the weekend and surgery having limited staff on the weekend.
+94,16:37:00,16:45:00,00:08:00,4/19/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+E4,07:37:00,08:12:00,00:35:00,4/20/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+E4,09:59:00,10:42:00,00:43:00,4/20/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,"Reassessing a COVID patient, noted his declining status, lower respiratory rate, fingertips becoming cyanotic, extremities colder, O2 sats dropping. Patient was a DNR"
+E4,16:31:00,16:45:00,00:14:00,4/20/2020,2,0,1,0,0,0,0,0,1,1,0,0,0,0,"Was trying to get a CBG on a patient and the glucometer ( a new upgrade we have had for approx 1 year) would not scan the patient's wristband and would also not give me the option to manually type in the patient's ID number. This was a COVID patient and I was dressed in full gear, sweating for 3na mins in the patient's room. I had to call another nurse to bring me another machine, which took more time, and after that the new machine would not register the patient's blood sample so I then had to call for more strips, as I had only brought in a small number of them due to the patient's COVID status and not wanting to contaminate the entire bottle."
+7A,07:23:00,07:34:00,00:11:00,4/23/2020,1,0,0,0,1,0,0,0,0,0,0,0,0,0,Just beginning my day. Giving family updates on their loved ones.
+7A,09:02:00,10:36:00,01:34:00,4/23/2020,2,0,1,0,1,0,0,1,0,0,0,1,0,1,Patient care and medication administration. Trying to meet their needs.
+7A,11:39:00,11:54:00,00:15:00,4/23/2020,2,0,0,0,0,1,1,0,0,0,1,0,0,1,New orders needing to be taken care of. Rounding with doctors completed. Then lunch break.
+7A,13:37:00,14:17:00,00:40:00,4/23/2020,2,0,1,1,1,0,0,0,0,0,0,1,0,1,More orders completed. Doctors rounding. Several tasks needing completion.
+7A,10:08:00,10:18:00,00:10:00,4/22/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,Normal patient care at this time.
+7A,15:47:00,16:28:00,00:41:00,4/22/2020,2,0,1,1,0,0,0,1,0,0,0,0,0,0,Multiple tasks needing to be completed.
+7A,17:31:00,18:03:00,00:32:00,4/22/2020,2,0,1,0,1,0,0,1,0,0,0,0,0,0,Trying to complete rounds along with new orders and medications prior to end of shift.
+94,18:55:00,19:03:00,00:08:00,5/10/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,1,NA
+94,19:38:00,19:50:00,00:12:00,5/10/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+94,08:06:00,08:38:00,00:32:00,5/10/2020,1,0,0,0,0,0,0,1,0,0,0,0,0,1,NA
+94,17:28:00,18:20:00,00:52:00,5/9/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+E4,16:49:00,16:56:00,00:07:00,5/9/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+E4,17:27:00,17:48:00,00:21:00,5/9/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+CE,09:55:00,10:08:00,00:13:00,5/9/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,Busy work day / family members calling frequently
+CE,10:16:00,11:06:00,00:50:00,5/9/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+CE,11:18:00,11:54:00,00:36:00,5/9/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,Busy work day / family members calling frequently
+CE,12:02:00,12:25:00,00:23:00,5/9/2020,2,0,0,1,0,0,0,0,0,0,0,0,0,0,Patient code blue
+E4,13:37:00,13:44:00,00:07:00,5/9/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7A,07:13:00,07:22:00,00:09:00,5/9/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7A,11:17:00,11:38:00,00:21:00,5/9/2020,1,0,0,0,0,1,0,0,0,0,0,0,0,0,NA
+5C,17:10:00,17:31:00,00:21:00,5/8/2020,1,0,0,0,1,1,0,0,0,1,0,0,0,0,NA
+CE,16:51:00,17:13:00,00:22:00,5/8/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6B,15:47:00,16:54:00,01:07:00,5/8/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6B,17:01:00,17:07:00,00:06:00,5/8/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6B,17:01:00,18:33:00,01:32:00,5/8/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6B,19:03:00,19:13:00,00:10:00,5/8/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6D,02:00:00,04:00:00,02:00:00,6/3/2020,1,1,0,0,0,0,0,0,0,0,1,0,0,0,"Void, testing entered by Satya"
+5C,10:55:00,12:35:00,01:40:00,6/23/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5C,12:52:00,13:09:00,00:17:00,6/23/2020,1,0,0,0,0,0,0,0,1,0,0,0,0,0,NA
+5C,13:22:00,16:03:00,02:41:00,6/23/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Employee having personal crisis.
+6B,10:46:00,11:12:00,00:26:00,6/23/2020,0,0,0,0,0,0,0,0,0,0,1,0,0,0,NA
+6B,11:25:00,11:49:00,00:24:00,6/23/2020,2,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+7A,12:36:00,12:50:00,00:14:00,6/23/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Walking across the street to get to important meeting
+7A,13:40:00,13:57:00,00:17:00,6/23/2020,1,0,0,0,0,0,1,0,0,0,0,0,0,1,Storming outside and needing to go to meeting
+94,13:50:00,14:16:00,00:26:00,6/23/2020,1,0,0,0,0,0,0,0,0,0,0,0,0,1,NA
+7A,15:08:00,15:15:00,00:07:00,6/23/2020,2,0,0,0,0,1,1,0,0,0,0,0,0,0,"In a meeting working on processes to streamline communication with Cardiology, Pre Admit, and central Scheduling"
+94,10:42:00,10:55:00,00:13:00,6/23/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5C,01:00:00,02:00:00,01:00:00,6/12/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5C,02:00:00,03:00:00,01:00:00,6/12/2020,0,0,0,0,0,0,0,0,0,0,0,1,0,0,NA
+6B,06:52:00,07:04:00,00:12:00,6/24/2020,2,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+6B,07:41:00,07:51:00,00:10:00,6/24/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+CE,08:48:00,09:09:00,00:21:00,6/24/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+CE,10:18:00,11:01:00,00:43:00,6/24/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5C,08:56:00,10:12:00,01:16:00,6/24/2020,2,0,0,0,0,0,0,0,1,0,0,0,0,0,NA
+5C,10:24:00,10:47:00,00:23:00,6/24/2020,2,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+E4,11:52:00,12:01:00,00:09:00,6/24/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,1st reason 2 COVID admits back to back. The was issues with the admit that needed to addressed. 2nd stress level was related conflict with  2 staff members.
+5C,12:38:00,12:46:00,00:08:00,6/24/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+5C,13:05:00,13:42:00,00:37:00,6/24/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5C,13:48:00,14:17:00,00:29:00,6/24/2020,2,0,0,0,0,0,0,0,0,0,0,1,0,0,NA
+94,13:50:00,14:15:00,00:25:00,6/24/2020,1,0,0,0,0,0,0,0,0,0,0,0,0,1,NA
+94,10:42:00,10:56:00,00:14:00,6/24/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+E4,10:36:00,10:44:00,00:08:00,6/24/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2 COVID admits back to back.
+7A,10:32:00,12:00:00,01:28:00,6/23/2020,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Device set up
+7A,13:40:00,13:57:00,00:17:00,6/23/2020,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Meeting
+6B,06:08:00,06:55:00,00:47:00,6/25/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6B,07:20:00,07:30:00,00:10:00,6/25/2020,2,0,0,0,0,0,0,0,0,0,1,0,0,0,NA
+CE,09:39:00,09:45:00,00:06:00,6/25/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7A,08:23:00,08:35:00,00:12:00,6/25/2020,1,0,0,0,0,0,0,0,1,0,0,0,0,0,Conference line nit working for Zoom meeting
+7A,09:52:00,10:21:00,00:29:00,6/25/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6B,09:52:00,10:21:00,00:29:00,6/25/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,08:30:00,08:45:00,00:15:00,6/25/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,08:47:00,08:55:00,00:08:00,6/25/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+5C,10:25:00,11:42:00,01:17:00,6/25/2020,1,0,0,0,0,1,0,0,0,0,0,0,0,0,NA
+5C,12:14:00,12:26:00,00:12:00,6/25/2020,1,0,0,0,0,0,0,0,0,0,0,0,0,1,NA
+94,10:29:00,11:08:00,00:39:00,6/25/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,11:45:00,12:33:00,00:48:00,6/25/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7A,11:47:00,12:36:00,00:49:00,6/25/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6B,11:47:00,12:36:00,00:49:00,6/25/2020,2,0,0,0,0,0,1,0,0,0,0,0,0,0,NA
+CE,12:58:00,13:08:00,00:10:00,6/25/2020,1,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+CE,12:26:00,12:29:00,00:03:00,6/25/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,12:52:00,13:15:00,00:23:00,6/25/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,13:41:00,14:15:00,00:34:00,6/25/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,1,NA
+6B,13:57:00,15:07:00,01:10:00,6/25/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7A,15:37:00,16:14:00,00:37:00,6/25/2020,1,0,0,0,0,1,0,1,0,0,0,0,0,0,Process meeting for Press Ganey comments with Nurse Managers
+94,15:21:00,15:41:00,00:20:00,6/25/2020,1,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+E4,13:50:00,14:03:00,00:13:00,6/25/2020,2,0,0,0,0,0,0,0,0,0,0,1,0,0,Patient admitted with decorating condition.
+E4,16:42:00,16:51:00,00:09:00,6/25/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,Notified about a nurse calling in late. Possibly will be short staffed tonight.
+E4,18:19:00,19:19:00,01:00:00,6/25/2020,2,0,0,0,0,0,1,0,0,0,0,0,0,0,Still at work dealing pending Covid test
+6B,06:22:00,07:01:00,00:39:00,6/26/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6B,07:19:00,07:28:00,00:09:00,6/26/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+6B,08:30:00,09:01:00,00:31:00,6/26/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+6B,07:57:00,08:34:00,00:37:00,6/26/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+94,07:57:00,08:34:00,00:37:00,6/26/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,12:02:00,12:29:00,00:27:00,6/26/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+CE,10:21:00,10:37:00,00:16:00,6/26/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+CE,11:24:00,11:37:00,00:13:00,6/26/2020,2,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+CE,11:38:00,12:52:00,01:14:00,6/26/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7A,10:59:00,11:10:00,00:11:00,6/26/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7A,11:47:00,12:19:00,00:32:00,6/26/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Staff crisis
+7A,12:31:00,12:38:00,00:07:00,6/26/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Staff crisis
+7A,08:19:00,08:58:00,00:39:00,6/29/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6B,06:36:00,07:21:00,00:45:00,6/29/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+94,08:21:00,08:27:00,00:06:00,6/29/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,09:06:00,09:12:00,00:06:00,6/29/2020,0,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+6B,08:40:00,09:10:00,00:30:00,6/29/2020,0,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+CE,12:07:00,12:12:00,00:05:00,6/29/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+E4,09:31:00,09:59:00,00:28:00,6/29/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Discharge COVID patient. Trying refine process.
+E4,09:58:00,12:30:00,02:32:00,6/29/2020,2,0,0,0,0,1,0,0,0,0,0,0,0,0,Meet with Dictor regarding serv as l concerns.
+E4,12:37:00,13:20:00,00:43:00,6/29/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7A,09:10:00,09:26:00,00:16:00,6/29/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,10:07:00,10:30:00,00:23:00,6/29/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6B,11:42:00,13:23:00,01:41:00,6/29/2020,2,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+94,11:16:00,11:49:00,00:33:00,6/29/2020,0,0,0,0,0,1,0,0,0,0,0,0,0,0,NA
+94,12:16:00,12:40:00,00:24:00,6/29/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,12:54:00,13:14:00,00:20:00,6/29/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6B,14:03:00,14:36:00,00:33:00,6/29/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+E4,15:14:00,16:03:00,00:49:00,6/29/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Nurses express concern for 2 COVID  admits. No additional satff.
+6B,06:12:00,07:22:00,01:10:00,6/30/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+6B,10:04:00,10:39:00,00:35:00,6/30/2020,2,0,0,0,0,0,1,0,0,0,0,0,0,0,NA
+7A,08:05:00,08:18:00,00:13:00,6/30/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Increase in COVID volume
+7A,08:52:00,09:02:00,00:10:00,6/30/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Boarding in ED
+94,08:31:00,08:53:00,00:22:00,6/30/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7A,09:56:00,10:08:00,00:12:00,6/30/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Increased boarding in ED
+7A,11:39:00,11:48:00,00:09:00,6/30/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7A,12:03:00,12:23:00,00:20:00,6/30/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+CE,12:04:00,12:08:00,00:04:00,6/30/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+E4,12:38:00,13:02:00,00:24:00,6/30/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Employee exhibits COVID symptoms
+7A,14:59:00,15:25:00,00:26:00,6/30/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,08:00:00,08:59:00,00:59:00,7/1/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7A,08:55:00,09:04:00,00:09:00,7/1/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Issues with staffing for COVID unit
+94,10:11:00,10:38:00,00:27:00,7/1/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Staffing
+E4,09:53:00,11:13:00,01:20:00,7/1/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Not enough staff for COVID Unit
+E4,11:42:00,12:16:00,00:34:00,7/1/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Covid staff need more education
+7A,11:49:00,11:51:00,00:02:00,7/1/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Replacing staff on the COVID unit
+94,12:23:00,12:26:00,00:03:00,7/1/2020,0,0,0,0,0,0,0,0,0,0,0,1,0,0,In service staff on new equipment
+E4,12:33:00,12:59:00,00:26:00,7/1/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Spoke special project manager on better ways to improve infection control on covid unit
+E4,12:59:00,13:09:00,00:10:00,7/1/2020,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Abnormal labs. Patient in crisis
+94,15:45:00,16:17:00,00:32:00,7/1/2020,0,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+94,08:07:00,08:15:00,00:08:00,7/2/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,08:07:00,08:25:00,00:18:00,7/2/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,08:47:00,09:14:00,00:27:00,7/2/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7A,08:49:00,09:03:00,00:14:00,7/2/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7A,09:03:00,09:09:00,00:06:00,7/2/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Increased census
+7A,09:29:00,09:34:00,00:05:00,7/2/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Master planning for COVID increase in census
+CE,09:06:00,14:29:00,05:23:00,7/2/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Personnel with COVID diagnosis
+CE,09:17:00,12:51:00,03:34:00,7/2/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+CE,13:05:00,14:29:00,01:24:00,7/2/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7A,09:54:00,10:19:00,00:25:00,7/2/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,COVID staff concerns
+7A,10:42:00,10:51:00,00:09:00,7/2/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,10:51:00,10:55:00,00:04:00,7/2/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,12:41:00,12:45:00,00:04:00,7/2/2020,2,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+94,15:13:00,15:21:00,00:08:00,7/2/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Teaching a class
+94,15:21:00,15:39:00,00:18:00,7/2/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Teaching a class
+94,15:56:00,16:07:00,00:11:00,7/2/2020,0,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+E4,12:47:00,12:53:00,00:06:00,7/2/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Getting another covid. Not enough staff
+E4,17:35:00,17:50:00,00:15:00,7/2/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Family complaints from patients on COVID unit. Not enough COVID sraff
+E4,11:19:00,12:17:00,00:58:00,7/3/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Problem with scrubbers being adjusted on Covid unit.
+E4,15:11:00,15:40:00,00:29:00,7/3/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Increased number of Covid patients. Unit at max. 2 boarding in the ED.
+E4,16:01:00,16:11:00,00:10:00,7/3/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Physician inquire about my plan to expand Covid unit.  Don't have the staff to do that.
+E4,07:36:00,07:55:00,00:19:00,7/7/2020,2,0,0,0,0,0,1,0,0,0,0,0,0,1,Increased COVID volume.  Needing staff
+7A,14:16:00,14:27:00,00:11:00,7/7/2020,2,0,0,0,0,0,1,0,0,0,0,0,0,0,Pharmacy issues on COVID unit
+7A,14:50:00,15:09:00,00:19:00,7/7/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Staffing for COVID unit
+CE,13:46:00,13:52:00,00:06:00,7/6/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+CE,14:35:00,14:41:00,00:06:00,7/6/2020,2,0,0,0,0,1,0,0,0,0,0,0,0,0,NA
+7A,10:12:00,10:19:00,00:07:00,7/6/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Meeting with pharmacy to address COVID unit isdues
+7A,14:16:00,14:27:00,00:11:00,7/6/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+7A,14:50:00,15:09:00,00:19:00,7/6/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,COVID planning process
+E4,07:36:00,07:55:00,00:19:00,7/6/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Covid unit staffing isdues
+E4,10:53:00,11:00:00,00:07:00,7/6/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,Covid patient had a seizure. Did rapid response.
+E4,11:19:00,11:28:00,00:09:00,7/6/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,Covid patient moved to ICU.
+E4,13:23:00,14:06:00,00:43:00,7/6/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,Not enough staff for the night shift.
+94,07:36:00,07:54:00,00:18:00,7/7/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+7A,08:34:00,08:44:00,00:10:00,7/7/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Addressing employee issue
+94,09:02:00,09:09:00,00:07:00,7/7/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,12:26:00,12:33:00,00:07:00,7/7/2020,0,0,1,0,0,0,0,0,0,0,0,0,0,0,NA
+E4,12:22:00,14:00:00,01:38:00,7/7/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,Phyisican is requesting special equipment for Covid unit.
+94,14:47:00,14:53:00,00:06:00,7/7/2020,0,0,0,0,0,0,0,0,0,0,0,0,1,1,NA
+7A,15:24:00,15:57:00,00:33:00,7/7/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Walking in parking garage
+15,09:25:00,09:30:00,00:05:00,7/8/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15,09:03:00,09:14:00,00:11:00,7/8/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+15,08:30:00,08:52:00,00:22:00,7/8/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+15,08:09:00,08:18:00,00:09:00,7/8/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+15,10:04:00,10:41:00,00:37:00,7/8/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+F5,10:56:00,11:02:00,00:06:00,7/8/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,Several complaints from the staff on the Covid unit.
+DF,13:42:00,16:04:00,02:22:00,7/8/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8B,11:59:00,12:05:00,00:06:00,7/13/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,"Increased ED boarding, COVID patients admitted"
+F5,11:59:00,12:05:00,00:06:00,7/13/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,In a meeting to discuss crisis because of lack of staff for COVID unit
+F5,15:50:00,15:53:00,00:03:00,7/13/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Complaint from COVID patient regarding behavior from an discipline beside nursing.  I have to address because it's my unit
+F5,09:13:00,09:17:00,00:04:00,7/13/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Air conditioning not functioning properly on Covid unit
+F5,16:14:00,16:19:00,00:05:00,7/10/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Not enough staff for Covid unit. Several staff on 5 north exhibiting symptoms.
+8B,07:56:00,08:02:00,00:06:00,7/15/2020,2,0,0,0,0,0,1,1,0,0,0,0,0,0,Increased concerns over COVUD care and lack of staff
+8B,08:11:00,08:19:00,00:08:00,7/15/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,COVID volumes continued to increase
+8B,13:51:00,14:15:00,00:24:00,7/15/2020,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Staff member gained eternal wings - COVID - passed away at home
+8B,15:27:00,15:35:00,00:08:00,7/15/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Communicating news of staff member?s death to staff
+F5,09:01:00,09:07:00,00:06:00,7/15/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Checking on PPE for Covid. Unit. Air conditioning not functioning on Covid unit.
+F5,10:17:00,10:23:00,00:06:00,7/15/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Transferring Covid patient to the ICU.
+F5,12:31:00,12:42:00,00:11:00,7/15/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Not enough staff for the next 2 shifts.
+F5,13:48:00,14:00:00,00:12:00,7/15/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Not enough Covid staff.
+F5,15:04:00,15:17:00,00:13:00,7/15/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Dealing with the death of one charge nurse. Talking to my staff. Very up pseting
+6D,09:49:00,10:24:00,00:35:00,7/16/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+6D,10:37:00,10:48:00,00:11:00,7/16/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+6D,10:57:00,15:19:00,04:22:00,7/16/2020,0,0,0,0,0,0,0,0,0,1,0,0,0,0,NA
+F5,13:01:00,13:06:00,00:05:00,7/16/2020,2,0,0,0,0,1,0,0,0,0,0,0,0,0,In a meeting discussing lack of staffing for Covid unit. Physician also called to complain about the of r as pud COVID  test
+8B,15:29:00,15:36:00,00:07:00,7/16/2020,2,0,0,0,0,1,0,0,0,0,0,0,0,0,Providing emotional support to 5N staff for loss of coworker
+8B,15:48:00,15:53:00,00:05:00,7/16/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Concerned about COVID volume
+8B,14:28:00,14:44:00,00:16:00,7/16/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Concerned about COVID volume
+F5,14:28:00,14:44:00,00:16:00,7/16/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,ERROR CPS TEAM
+8B,08:57:00,09:04:00,00:07:00,7/17/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Concerned about having enough staff to care for COVID volume this weekend
+8B,09:14:00,09:30:00,00:16:00,7/17/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Reviewing plan for weekend staffing
+8B,10:10:00,10:34:00,00:24:00,7/17/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Finalizing weekend staffing plan
+F5,10:33:00,10:47:00,00:14:00,7/17/2020,2,0,0,0,0,1,0,0,0,0,0,0,0,0,Employees expressing concern regarding increase in Covid patients.
+F5,11:49:00,12:13:00,00:24:00,7/17/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Preparing for 1pm meeting to discuss staffing issues. I have serval employees out sick because of Covid testing
+F5,15:23:00,15:27:00,00:04:00,7/17/2020,2,0,1,0,1,0,0,0,0,0,0,0,0,0,Vivid patient being discharged.  Staff reports that is no family to come and get him
+8B,15:23:00,15:27:00,00:04:00,7/17/2020,2,0,1,0,1,0,0,0,0,0,0,0,0,0,COVID patient being discharged.  Staff reports that is no family to come and get him
+8B,14:58:00,15:22:00,00:24:00,7/17/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,CPS TEAM ERROR
+15,08:23:00,08:30:00,00:07:00,7/21/2020,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Concerned about providing care for volumes safely
+F5,09:24:00,09:34:00,00:10:00,7/21/2020,2,0,1,0,0,0,0,1,0,0,0,0,0,0,Staffing
+DF,09:01:00,09:05:00,00:04:00,7/21/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,Discuss the details of Memorial for fellow nurse/ co worker who died. Very emotional.
+DF,10:13:00,10:27:00,00:14:00,7/21/2020,0,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+F5,10:26:00,10:39:00,00:13:00,7/21/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Inspection of unit/ preparation for expansion of Covid unit.
+15,11:19:00,11:45:00,00:26:00,7/21/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Staffing
+F5,12:18:00,12:32:00,00:14:00,7/21/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,"Discussing pulling nurses from other units to properly staff COVID unit
+
+"
+F5,15:02:00,15:11:00,00:09:00,7/21/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Moving my office to another floor. Packing. My office will be sealed.  No longer able to enter.Due to conversion of entire unit to Covid.
+8B,09:50:00,10:48:00,00:58:00,7/20/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Highest COVID volume in ED and multiple staff diagnosed with COVID
+F5,09:57:00,10:03:00,00:06:00,7/20/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,The entire unit converted to COVID UNIT.
+8B,14:11:00,14:18:00,00:07:00,7/20/2020,2,0,0,0,0,1,0,0,0,0,0,0,0,0,Communicating decision to staff regarding temporary reduction in surgical cases in order to reassign staff to care for COVID patients
+F5,09:51:00,10:03:00,00:12:00,7/20/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,"Not enough COVID unit staff. Working on finding nurses
+
+"
+F5,14:27:00,14:54:00,00:27:00,7/20/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,Family Of COVID patient concerned about their condition.  Ask nurse to have patient call family.
+F5,14:27:00,14:54:00,00:27:00,7/20/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Meeting regarding staff crisis on COVID unit.
+DF,14:35:00,14:38:00,00:03:00,7/20/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+DF,08:47:00,08:50:00,00:03:00,7/17/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+F5,09:58:00,10:12:00,00:14:00,7/22/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,There was a Memorial for the deceased staff nurse today. It was very emotional and beautiful simultaneously.  I was very upset . I was very found of her. She was one of my 7p charge nurses. She was the leader of her shift. She is truly missed.
+15,09:34:00,09:41:00,00:07:00,7/22/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+DF,10:06:00,13:33:00,03:27:00,7/22/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+DF,13:39:00,15:07:00,01:28:00,7/22/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+DF,15:46:00,15:56:00,00:10:00,7/22/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8B,12:41:00,13:34:00,00:53:00,7/22/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+8B,14:00:00,14:08:00,00:08:00,7/22/2020,2,0,0,0,0,1,1,0,0,0,0,0,0,0,Physician issues related to surgery issues - multiple demands from staff and physicians
+15,15:34:00,16:01:00,00:27:00,7/22/2020,2,0,0,0,0,1,0,1,0,0,0,0,0,0,Physicians requesting different decisions
+15,16:10:00,16:33:00,00:23:00,7/22/2020,2,0,0,0,0,0,0,0,1,0,1,0,0,0,NA
+DF,09:27:00,09:47:00,00:20:00,7/23/2020,0,0,0,0,0,0,0,0,1,0,0,0,0,0,NA
+DF,10:12:00,12:52:00,02:40:00,7/23/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+F5,10:03:00,10:08:00,00:05:00,7/23/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Orienting surgical staff on COVID unit. There is miscommunication regarding the process and direction the orientation should go in.
+F5,12:22:00,12:29:00,00:07:00,7/23/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Communication changes on Covid unit. Some staff hesitatant on moving forward.
+DF,14:17:00,15:34:00,01:17:00,7/24/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15,08:11:00,08:24:00,00:13:00,7/24/2020,2,0,0,0,0,1,0,0,0,0,0,0,0,0,NA
+15,08:57:00,09:06:00,00:09:00,7/24/2020,2,0,0,0,0,0,0,0,0,0,0,0,1,0,NA
+15,14:54:00,15:47:00,00:53:00,7/24/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,Staffing
+DF,07:57:00,08:00:00,00:03:00,7/24/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15,08:07:00,09:25:00,01:18:00,7/28/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15,08:07:00,09:25:00,01:18:00,7/28/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+DF,12:38:00,12:41:00,00:03:00,7/28/2020,2,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+15,10:04:00,10:12:00,00:08:00,7/28/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15,13:49:00,13:51:00,00:02:00,7/28/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+DF,12:44:00,12:50:00,00:06:00,7/29/2020,2,0,0,0,0,1,0,0,0,0,0,0,0,0,NA
+15,09:18:00,09:44:00,00:26:00,7/29/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+DF,09:50:00,09:53:00,00:03:00,7/30/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+15,09:32:00,09:45:00,00:13:00,7/31/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15,09:54:00,10:21:00,00:27:00,7/31/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15,10:44:00,11:41:00,00:57:00,7/31/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15,13:37:00,13:43:00,00:06:00,7/31/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15,14:29:00,14:40:00,00:11:00,7/31/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15,15:01:00,15:13:00,00:12:00,7/31/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+DF,12:43:00,12:46:00,00:03:00,7/17/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+DF,08:08:00,08:11:00,00:03:00,7/17/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+DF,08:31:00,08:40:00,00:09:00,7/17/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+15,08:31:00,08:40:00,00:09:00,7/17/2020,0,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+15,08:59:00,09:19:00,00:20:00,7/17/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+15,10:15:00,10:18:00,00:03:00,7/17/2020,2,0,0,0,0,0,0,1,0,0,0,0,0,0,NA
+15,12:21:00,12:27:00,00:06:00,7/17/2020,2,0,0,0,0,0,1,0,0,0,0,0,0,0,NA
+15,13:49:00,14:16:00,00:27:00,7/17/2020,2,0,0,0,0,1,0,0,0,0,0,0,0,0,NA
+15,15:00:00,15:14:00,00:14:00,7/17/2020,2,0,0,0,0,0,1,0,0,0,0,0,0,0,NA
+DF,12:52:00,16:28:00,03:36:00,8/6/2020,2,0,0,1,0,0,0,0,0,0,0,0,0,0,NA
+DF,08:06:00,09:12:00,01:06:00,8/6/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+DF,08:18:00,08:25:00,00:07:00,8/7/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7E,13:46:00,14:03:00,00:17:00,10/21/2020,0,0,0,0,0,0,0,0,0,0,0,0,0,0,I don?t recall a stress event at this particular moment in my day.
+7E,09:05:00,09:08:00,00:03:00,10/22/2020,0,0,0,0,1,0,0,0,0,0,0,0,1,0,At this time I was setting up patient isolation on a patients door.
+83,05:24:00,05:28:00,00:04:00,10/29/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+83,06:49:00,06:58:00,00:09:00,10/29/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+83,03:20:00,03:52:00,00:32:00,10/28/2020,2,0,1,1,1,0,0,0,0,0,0,0,0,0,Transfer of covid Pt to ICU.
+83,22:43:00,23:20:00,00:37:00,10/28/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+83,20:15:00,20:35:00,00:20:00,10/28/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+83,04:44:00,05:05:00,00:21:00,10/28/2020,0,0,1,1,1,0,0,0,0,0,0,0,0,0,Covid Pt needing transfer to ICU
+BG,23:28:00,23:51:00,00:23:00,10/28/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BG,20:26:00,20:53:00,00:27:00,10/28/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BG,21:27:00,21:47:00,00:20:00,10/28/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BG,19:30:00,19:55:00,00:25:00,10/28/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+83,22:51:00,23:29:00,00:38:00,10/29/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+83,01:25:00,02:01:00,00:36:00,10/30/2020,2,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+83,07:03:00,07:13:00,00:10:00,10/30/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+EG,07:46:00,08:28:00,00:42:00,11/2/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+EG,08:35:00,09:25:00,00:50:00,11/2/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+EG,13:40:00,14:02:00,00:22:00,11/2/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+83,05:14:00,05:49:00,00:35:00,11/2/2020,2,0,0,0,0,0,0,0,0,1,0,1,0,0,NA
+83,06:07:00,06:17:00,00:10:00,11/2/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+83,06:40:00,07:18:00,00:38:00,11/2/2020,0,0,0,0,0,0,1,0,0,0,0,0,0,0,NA
+83,19:44:00,20:03:00,00:19:00,11/1/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+83,19:44:00,20:38:00,00:54:00,11/1/2020,2,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+83,22:58:00,23:18:00,00:20:00,11/1/2020,2,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+83,04:21:00,04:40:00,00:19:00,11/1/2020,2,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+83,06:04:00,06:35:00,00:31:00,11/1/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7E,09:53:00,10:03:00,00:10:00,10/31/2020,0,0,0,0,1,1,0,1,0,0,0,0,1,0,NA
+7E,10:09:00,10:27:00,00:18:00,10/31/2020,2,0,0,0,1,1,0,0,0,0,0,0,0,1,NA
+7E,12:21:00,12:48:00,00:27:00,10/31/2020,2,0,0,0,1,0,0,1,0,0,0,0,1,0,NA
+83,06:51:00,07:05:00,00:14:00,11/6/2020,0,0,0,0,0,0,1,0,0,0,0,0,0,0,NA
+83,04:55:00,05:02:00,00:07:00,11/6/2020,2,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+BG,02:53:00,03:11:00,00:18:00,11/6/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+BG,01:28:00,01:44:00,00:16:00,11/6/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+BG,00:15:00,00:17:00,00:02:00,11/5/2020,0,0,1,0,0,0,0,0,0,0,0,0,0,0,NA
+83,23:06:00,23:20:00,00:14:00,11/5/2020,0,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+BG,20:34:00,20:47:00,00:13:00,11/5/2020,2,0,1,1,0,0,0,0,0,0,0,0,0,0,NA
+7E,14:19:00,14:50:00,00:31:00,11/5/2020,0,0,0,0,1,0,0,1,0,0,0,0,1,0,NA
+BG,05:32:00,06:04:00,00:32:00,11/5/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,NA
+BG,06:15:00,07:08:00,00:53:00,11/5/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,NA
+83,03:16:00,03:23:00,00:07:00,11/5/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,NA
+83,21:24:00,21:43:00,00:19:00,11/4/2020,0,0,0,0,0,0,1,0,0,0,0,0,0,0,NA
+7E,14:56:00,15:22:00,00:26:00,11/4/2020,2,0,0,0,1,0,0,1,0,0,0,0,1,0,NA
+EG,09:50:00,10:33:00,00:43:00,11/8/2020,2,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+EG,13:30:00,14:00:00,00:30:00,11/8/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Feeling sleepy.
+EG,13:30:00,14:13:00,00:43:00,11/10/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+EG,08:16:00,10:13:00,01:57:00,11/11/2020,2,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+EG,10:23:00,12:09:00,01:46:00,11/11/2020,2,0,0,0,1,0,0,0,0,0,0,0,0,0,NA
+BG,22:42:00,23:01:00,00:19:00,12/2/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BG,23:53:00,00:05:00,00:08:00,12/2/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BG,20:00:00,20:08:00,00:08:00,12/2/2020,0,0,1,0,0,0,0,0,0,0,0,0,0,0,NA
+BG,23:55:00,23:58:00,00:03:00,12/2/2020,0,0,1,0,0,0,0,0,0,0,0,0,0,0,NA
+BG,01:23:00,01:54:00,00:31:00,12/3/2020,2,0,1,0,1,0,0,0,0,0,0,0,0,0,NA
+BG,02:58:00,03:05:00,00:07:00,12/3/2020,2,0,1,0,1,0,0,0,0,0,0,0,0,0,NA
+BG,03:57:00,04:07:00,00:10:00,12/3/2020,2,0,1,0,1,0,0,0,0,0,0,0,0,0,NA
+BG,19:04:00,19:17:00,00:13:00,12/3/2020,2,0,0,0,0,0,1,0,0,0,0,0,0,0,NA
+BG,18:58:00,19:15:00,00:17:00,12/3/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BG,19:45:00,20:18:00,00:33:00,12/3/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BG,18:58:00,19:15:00,00:17:00,12/6/2020,2,0,0,0,0,1,0,0,0,0,0,0,0,0,NA
+BG,19:45:00,20:18:00,00:33:00,12/6/2020,0,0,0,1,0,1,0,0,0,0,0,0,0,0,NA
+BG,22:00:00,22:26:00,00:26:00,12/5/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+EG,10:57:00,11:17:00,00:20:00,12/9/2020,2,0,1,1,1,0,0,0,0,0,0,0,0,0,NA
+EG,18:57:00,19:01:00,00:04:00,12/9/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+EG,19:29:00,19:39:00,00:10:00,12/9/2020,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+BG,21:24:00,22:08:00,00:44:00,12/9/2020,2,0,1,0,1,0,0,0,0,0,0,0,0,0,NA
+83,00:46:00,01:32:00,00:46:00,12/10/2020,2,0,1,0,0,1,0,0,0,0,0,0,0,0,NA
+83,04:08:00,05:55:00,01:47:00,12/10/2020,2,0,1,0,0,1,0,0,0,0,0,0,0,0,NA
+83,06:10:00,07:35:00,01:25:00,12/10/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,NA
+83,20:23:00,20:50:00,00:27:00,12/12/2020,2,0,0,0,1,1,0,1,0,0,0,0,0,0,NA
+83,23:05:00,23:50:00,00:45:00,12/12/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+83,00:12:00,02:01:00,01:49:00,12/13/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,NA
+83,20:34:00,20:48:00,00:14:00,12/11/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,NA
+83,20:54:00,21:13:00,00:19:00,12/11/2020,2,0,1,0,0,0,0,0,0,0,0,0,0,0,NA
+BG,19:20:00,19:38:00,00:18:00,12/11/2020,2,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
