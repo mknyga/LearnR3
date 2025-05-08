@@ -13,6 +13,7 @@ Imports:
     purrr,
     stringr,
     dplyr,
-    lubridate
+    lubridate,
+    tidyselect
 Depends:
     tidyverse

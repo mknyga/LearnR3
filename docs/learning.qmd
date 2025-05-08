@@ -22,9 +22,8 @@ cgm_data <- here("data-raw/dime/cgm") %>%
 
 sleep_data <- here("data-raw/dime/sleep") |>
   import_csv_files() |>
-  get_participant_id() |>
-  rename(datetime = date) %>%
-  prepare_dates(datetime)
+  clean_sleep()
+  
 ```
 
 
@@ -166,25 +165,23 @@ here("data-raw/dime/sleep/") |>
 ## Summarring with across()
 
 ```{r}
-cgm_data %>%
-  summarise(across(glucose, list(
-    mean = mean,
-    sd = sd,
-    median = median
-  )))
+
 ```
 
 ## Summarize by group
 
 ```{r}
-cgm_data %>%
-  select(-contains("timestamp"), -contains("datetime")) %>%
-  group_by(pick(-glucose)) %>%
-  summarise(
-    across(glucose, list(
-      mean = mean,
-      sd = sd
-    )),
-    .groups = "drop"
-  )
+
+
+```
+
+```{r}
+```
+
+```{r}
+
+```
+
+```{r}
+
 ```
