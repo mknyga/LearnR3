@@ -8,8 +8,7 @@ import_dime <- function(file_path) {
   data <- file_path %>%
     readr::read_csv(
       show_col_types = FALSE,
-      name_repair = snakecase::to_snake_case,
-      n_max = 100
+      name_repair = snakecase::to_snake_case
     )
 
   return(data)
@@ -87,8 +86,10 @@ clean_cgm <- function(data) {
     get_participant_id() %>%
     prepare_dates(device_timestamp) %>%
     dplyr::rename(glucose = historic_glucose_mmol_l) %>%
-    summarize_column(glucose, list(mean = mean,
-                                   sd = sd))
+    summarize_column(glucose, list(
+      mean = mean,
+      sd = sd
+    ))
 
   return(cleaned)
 }
@@ -97,18 +98,20 @@ clean_cgm <- function(data) {
 #' Summarize a single column based one or more functions
 #'
 #' @param data Either the CGM or sleep data in DIME
-#' @param column The column we want to summarzse = glucose
+#' @param column The column we want to summarzise = glucose
 #' @param functions One or more functions to apply to the column. If more than one added, use list()
 #'
 #' @returns
 #'
-summarize_column <- function(data, column, functions){
+summarize_column <- function(data, column, functions) {
   summarized_data <- data %>%
     dplyr::select(-tidyselect::contains("timestamp"), -tidyselect::contains("datetime")) %>%
-    dplyr::group_by(dplyr::pick(-{{column}})) %>%
+    dplyr::group_by(dplyr::pick(-{{ column }})) %>%
     dplyr::summarise(
-      dplyr::across({{column}},
-                    functions),
+      dplyr::across(
+        {{ column }},
+        functions
+      ),
       .groups = "drop"
     )
 
@@ -124,11 +127,44 @@ summarize_column <- function(data, column, functions){
 #'
 clean_sleep <- function(data) {
   cleaned <- data %>%
-  get_participant_id() |>
-  rename(datetime = date) %>%
-  prepare_dates(datetime) %>%
-    summarize_column(seconds, list(sum = sum))
+    get_participant_id() |>
+    dplyr::rename(datetime = date) %>%
+    prepare_dates(datetime) %>%
+    summarize_column(seconds, list(sum = sum)) %>%
+    sleep_types_to_wider()
 
   return(cleaned)
-
 }
+
+
+#' Convert the participant details data to long and clean it up
+#'
+#' @param data The DIME participant detail data
+#'
+#' @returns A data frame
+#'
+clean_participant_detail <- function(data) {
+  cleaned <- data %>%
+    tidyr::pivot_longer(tidyselect::ends_with("date"), names_to = NULL, values_to = "date") %>%
+    dplyr::group_by(dplyr::pick(-date)) %>%
+    tidyr::complete(
+      date = seq(min(date), max(date), by = "1 day")
+    )
+
+  return(cleaned)
+}
+
+
+#' Sleep data from DIME to wider
+#'
+#' @param data Sleep data
+#'
+#' @returns A wider data frame
+#'
+sleep_types_to_wider <- function(data) {
+  wider <- data %>%
+    tidyr::pivot_wider(names_from = sleep_type, values_from = seconds_sum, names_prefix = "seconds_")
+
+  return(wider)
+}
+

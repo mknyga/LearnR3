@@ -11,3 +11,4 @@ data-raw/dime.zip
 data-raw/dime/
 *.htlm
 *_file
+data/dime.csv

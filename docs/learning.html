@@ -269,7 +269,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">here</span>(<span class="st">"data-raw/dime/cgm/101.csv"</span>) <span class="sc">%&gt;%</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">import_dime</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 100 × 2
+<pre><code># A tibble: 3,564 × 2
    device_timestamp    historic_glucose_mmol_l
    &lt;dttm&gt;                                &lt;dbl&gt;
  1 2021-03-18 08:15:00                     5.8
@@ -282,12 +282,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  8 2021-03-18 10:01:00                     4.8
  9 2021-03-18 10:16:00                     5.5
 10 2021-03-18 10:31:00                     5.7
-# ℹ 90 more rows</code></pre>
+# ℹ 3,554 more rows</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">here</span>(<span class="st">"data-raw/dime/sleep/101.csv"</span>) <span class="sc">%&gt;%</span></span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">import_dime</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 100 × 3
+<pre><code># A tibble: 995 × 3
    date                sleep_type seconds
    &lt;dttm&gt;              &lt;chr&gt;        &lt;dbl&gt;
  1 2021-05-24 23:03:00 wake           540
@@ -300,7 +300,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  8 2021-05-25 00:12:30 wake           870
  9 2021-05-25 00:27:00 rem            360
 10 2021-05-25 00:33:00 light          210
-# ℹ 90 more rows</code></pre>
+# ℹ 985 more rows</code></pre>
 </div>
 </div>
 </section>
@@ -310,7 +310,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">here</span>(<span class="st">"data-raw/dime/cgm/"</span>) <span class="sc">|&gt;</span></span>
 <span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">import_csv_files</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 1,900 × 3
+<pre><code># A tibble: 48,743 × 3
    file_path_id                       device_timestamp    historic_glucose_mmo…¹
    &lt;chr&gt;                              &lt;dttm&gt;                               &lt;dbl&gt;
  1 /Users/au201463/Desktop/LearnR3/d… 2021-03-18 08:15:00                    5.8
@@ -323,13 +323,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  8 /Users/au201463/Desktop/LearnR3/d… 2021-03-18 10:01:00                    4.8
  9 /Users/au201463/Desktop/LearnR3/d… 2021-03-18 10:16:00                    5.5
 10 /Users/au201463/Desktop/LearnR3/d… 2021-03-18 10:31:00                    5.7
-# ℹ 1,890 more rows
+# ℹ 48,733 more rows
 # ℹ abbreviated name: ¹​historic_glucose_mmol_l</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">here</span>(<span class="st">"data-raw/dime/sleep/"</span>) <span class="sc">|&gt;</span></span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">import_csv_files</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 1,800 × 4
+<pre><code># A tibble: 26,265 × 4
    file_path_id                           date                sleep_type seconds
    &lt;chr&gt;                                  &lt;dttm&gt;              &lt;chr&gt;        &lt;dbl&gt;
  1 /Users/au201463/Desktop/LearnR3/data-… 2021-05-24 23:03:00 wake           540
@@ -342,7 +342,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  8 /Users/au201463/Desktop/LearnR3/data-… 2021-05-25 00:12:30 wake           870
  9 /Users/au201463/Desktop/LearnR3/data-… 2021-05-25 00:27:00 rem            360
 10 /Users/au201463/Desktop/LearnR3/data-… 2021-05-25 00:33:00 light          210
-# ℹ 1,790 more rows</code></pre>
+# ℹ 26,255 more rows</code></pre>
 </div>
 </div>
 </section>
@@ -353,7 +353,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">import_csv_files</span>() <span class="sc">%&gt;%</span></span>
 <span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">get_participant_id</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 1,900 × 3
+<pre><code># A tibble: 48,743 × 3
       id device_timestamp    historic_glucose_mmol_l
    &lt;int&gt; &lt;dttm&gt;                                &lt;dbl&gt;
  1   101 2021-03-18 08:15:00                     5.8
@@ -366,13 +366,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  8   101 2021-03-18 10:01:00                     4.8
  9   101 2021-03-18 10:16:00                     5.5
 10   101 2021-03-18 10:31:00                     5.7
-# ℹ 1,890 more rows</code></pre>
+# ℹ 48,733 more rows</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">here</span>(<span class="st">"data-raw/dime/sleep/"</span>) <span class="sc">|&gt;</span></span>
 <span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">import_csv_files</span>() <span class="sc">%&gt;%</span></span>
 <span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">get_participant_id</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 1,800 × 4
+<pre><code># A tibble: 26,265 × 4
       id date                sleep_type seconds
    &lt;int&gt; &lt;dttm&gt;              &lt;chr&gt;        &lt;dbl&gt;
  1   101 2021-05-24 23:03:00 wake           540
@@ -385,7 +385,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  8   101 2021-05-25 00:12:30 wake           870
  9   101 2021-05-25 00:27:00 rem            360
 10   101 2021-05-25 00:33:00 light          210
-# ℹ 1,790 more rows</code></pre>
+# ℹ 26,255 more rows</code></pre>
 </div>
 </div>
 </section>
@@ -397,6 +397,39 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="summarize-by-group" class="level2">
 <h2 class="anchored" data-anchor-id="summarize-by-group">Summarize by group</h2>
+</section>
+<section id="pivot-longer" class="level2">
+<h2 class="anchored" data-anchor-id="pivot-longer">Pivot longer</h2>
+</section>
+<section id="pivot-wider" class="level2">
+<h2 class="anchored" data-anchor-id="pivot-wider">Pivot wider</h2>
+</section>
+<section id="joining-datasets" class="level2">
+<h2 class="anchored" data-anchor-id="joining-datasets">Joining datasets</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>participant_details <span class="sc">%&gt;%</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">right_join</span>(cgm_data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Joining with `by = join_by(id, date)`</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 12,644 × 8
+# Groups:   id, gender, age_years, intervention [70]
+      id gender age_years intervention date        hour glucose_mean glucose_sd
+   &lt;dbl&gt; &lt;chr&gt;      &lt;dbl&gt; &lt;chr&gt;        &lt;date&gt;     &lt;int&gt;        &lt;dbl&gt;      &lt;dbl&gt;
+ 1   101 woman       45.6 baseline     2021-03-18     8         5.43     0.351 
+ 2   101 woman       45.6 baseline     2021-03-18     9         5.05     0.300 
+ 3   101 woman       45.6 baseline     2021-03-18    10         5.3      0.392 
+ 4   101 woman       45.6 baseline     2021-03-18    11         4.03     0.189 
+ 5   101 woman       45.6 baseline     2021-03-18    12         4.02     0.0957
+ 6   101 woman       45.6 baseline     2021-03-18    13         4.1      0.141 
+ 7   101 woman       45.6 baseline     2021-03-18    14         5.62     0.946 
+ 8   101 woman       45.6 baseline     2021-03-18    15         7.3      0.141 
+ 9   101 woman       45.6 baseline     2021-03-18    16         6.55     0.7   
+10   101 woman       45.6 baseline     2021-03-18    17         4.8      0.356 
+# ℹ 12,634 more rows</code></pre>
+</div>
+</div>
 </section>
 
 </main>

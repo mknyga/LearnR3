@@ -15,15 +15,24 @@ library(fs)
 library(stringr)
 library(lubridate)
 source(here("R/functions.R"))
+
 cgm_data <- here("data-raw/dime/cgm") %>%
   import_csv_files() %>%
   clean_cgm()
 
-
 sleep_data <- here("data-raw/dime/sleep") |>
   import_csv_files() |>
   clean_sleep()
-  
+
+participant_details <- here("data-raw/dime/participant_details.csv") %>%
+  import_dime() %>%
+  clean_participant_detail()
+
+dime_data <- participant_details %>%
+  full_join(cgm_data) %>%
+  full_join(sleep_data)
+
+write_csv(dime_data, here("data/dime.csv"))
 ```
 
 
@@ -165,23 +174,29 @@ here("data-raw/dime/sleep/") |>
 ## Summarring with across()
 
 ```{r}
-
 ```
 
 ## Summarize by group
 
 ```{r}
-
-
 ```
+
+##  Pivot longer
 
 ```{r}
 ```
 
-```{r}
+## Pivot wider
 
+```{r}
+```
+
+## Joining datasets
+
+```{r}
+participant_details %>%
+  right_join(cgm_data)
 ```
 
 ```{r}
-
 ```
